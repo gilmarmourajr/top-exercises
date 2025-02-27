@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // create object from array
+      //   let users = [
+      //     { id: "john", name: "John Smith", age: 20 },
+      //     { id: "ann", name: "Ann Smith", age: 24 },
+      //     { id: "pete", name: "Pete Peterson", age: 31 },
+      //   ];
+
+      //   let usersById = groupById(users);
+
+      //   function groupById(array) {
+      //     return array.reduce((obj, value) => {
+      //       obj[value.id] = value;
+      //       return obj;
+      //     }, {});
+      //   }
+      //   console.log(usersById);
+
+      // ------------------------------------------------
+
+      // Filter unique array members
+      // let strings = ["Hare", "Krishna", "Hare", "Krishna",
+      //       "Krishna", "Krishna", "Hare", "Hare", ":-O"];
+
+      // alert(unique(strings));
+
+      // function unique(arr) {
+      //     let uniqueArr = [];
+      //     for(let str of arr){
+      //         if(!(uniqueArr.includes(str))){
+      //             uniqueArr.push(str);
+      //         }
+      //     }
+      // return uniqueArr;
+      //   }
+
+      // ------------------------------------------------
+
+      // Get average age
+      // let john = { name: "John", age: 25 };
+      // let pete = { name: "Pete", age: 30 };
+      // let mary = { name: "Mary", age: 29 };
+
+      // let arr = [ john, pete, mary ];
+
+      // alert( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
+
+      // function getAverageAge(users){
+      //     let sum = users.reduce((total, current) => {
+      //         return total += current.age
+      //     }, 0);
+      //     return sum/users.length;
+      // }
+      //   -- OR --
+      // function getAverageAge(users) {
+      //     return users.reduce((prev, user) => prev + user.age, 0) / users.length;
+      // }
+
+      // ------------------------------------------------
+
+      //   Shuffle an array
+      //   let arr = [1, 2, 3, 4, 5, 6, 7];
+      //   shuffle(arr);
+      //   alert(arr);
+
+      //   function shuffle(arr){
+      //     for(let i=0; i<arr.length; i++){
+      //         let randIndex = Math.floor(Math.random() * arr.length);
+      //         let j = arr[i];
+      //         arr[i] = arr[randIndex];
+      //         arr[randIndex] = j;
+      //     }
+      //   }
+    </script>
+  </body>
+</html>
